@@ -1,0 +1,13 @@
+sqlalchemy — ORM (объектно-реляционное отображение)
+
+psycopg2-binary — драйвер для PostgreSQL
+
+alembic — миграции
+
+python-dotenv — для работы с переменными окружения (пароли и т.д.)
+
+создать миграцию 
+alembic revision --autogenerate -m "create users table"
+
+применить миграцию
+alembic upgrade head
